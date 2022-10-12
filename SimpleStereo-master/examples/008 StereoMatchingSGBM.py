@@ -12,7 +12,7 @@ Use OpenCV basic matching algorithm on rectified images.
 # Paths
 curPath = os.path.dirname(os.path.realpath(__file__))
 imgPath = os.path.join(curPath,"res","scenes","3")
-loadFile = os.path.join(curPath,"res","4","rigRect.json")      # StereoRig file
+loadFile = os.path.join(curPath,"res","5","rigRect.json")      # StereoRig file
 
 # Load stereo rig from file
 rigRect = ss.RectifiedStereoRig.fromFile(loadFile)

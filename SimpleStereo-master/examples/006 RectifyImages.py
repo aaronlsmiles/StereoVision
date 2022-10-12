@@ -11,7 +11,7 @@ Rectify a couple of images using a RectifiedStereoRig
 # Paths
 curPath = os.path.dirname(os.path.realpath(__file__))
 imgPath = os.path.join(curPath,"res","scenes","3")
-loadFile = os.path.join(curPath,"res","4","rigRect.json")      # StereoRigRect file
+loadFile = os.path.join(curPath,"res","5","rigRect.json")      # StereoRigRect file
 
 # Load stereo rig from file
 rigRect = ss.RectifiedStereoRig.fromFile(loadFile)
@@ -32,9 +32,9 @@ print(f"Input image 2 resolution is {img2.shape[:2][::-1]}")
 img1_rect, img2_rect = rigRect.rectifyImages(img1, img2)
 
 # Draw some horizontal lines as reference (after rectification all horizontal lines are epipolar lines)
-for y in [289,332, 362]:
-    cv2.line(img1_rect, (0,y), (1280,y), color=(0,0,255), thickness=3)
-    cv2.line(img2_rect, (0,y), (1280,y), color=(0,0,255), thickness=3)
+for y in [289,332, 362, 500, 700]:
+    cv2.line(img1_rect, (0,y), (3840,y), color=(0,0,255), thickness=3)
+    cv2.line(img2_rect, (0,y), (3840,y), color=(0,0,255), thickness=3)
 
 # Show images
 cv2.imshow('img1 Rectified', img1_rect)

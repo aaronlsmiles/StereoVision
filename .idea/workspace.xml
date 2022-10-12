@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e929581-72ae-44f7-937c-8881a464ae55" name="Changes" comment="Initial commit-LTwU" />
+    <list default="true" id="4e929581-72ae-44f7-937c-8881a464ae55" name="Changes" comment="commit calib images dir5, tsukuba">
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/000 CalibrateSingleCamera.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/000 CalibrateSingleCamera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/005 RectifyRig.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/005 RectifyRig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/006 RectifyImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/006 RectifyImages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/008 StereoMatchingSGBM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/008 StereoMatchingSGBM.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/a11s/PycharmProjects/pythonProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/a11s/PycharmProjects/pythonProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -50,6 +59,7 @@
       <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/scenes/2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rect_images" />
       <recent name="$PROJECT_DIR$/SimpleStereo-master/misc" />
       <recent name="$PROJECT_DIR$/SimpleStereo-master/examples" />
     </key>
@@ -123,6 +133,7 @@
       <workItem from="1665437543586" duration="1757000" />
       <workItem from="1665439316509" duration="319000" />
       <workItem from="1665439646700" duration="1435000" />
+      <workItem from="1665441093640" duration="5051000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit (second attempt)">
       <created>1665419305219</created>
@@ -152,7 +163,56 @@
       <option name="project" value="LOCAL" />
       <updated>1665441020029</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit .idea directory">
+      <created>1665441144177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665441144177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit main SS setup files (-examples)">
+      <created>1665441430208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665441430208</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit main SS setup files (-examples)">
+      <created>1665441479006</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665441479006</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit main SS setup files (-examples)">
+      <created>1665441602154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665441602154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit calib images directory 4 and scenes directory 3">
+      <created>1665441873751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665441873751</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit calib images directory 4 and scenes directory 3">
+      <created>1665569314068</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665569314068</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit calib images dir5, tsukuba">
+      <created>1665569386569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665569386569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +236,11 @@
     <MESSAGE value="initial commit (second attempt)" />
     <MESSAGE value="new changes" />
     <MESSAGE value="Initial commit-LTwU" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit-LTwU" />
+    <MESSAGE value="commit .idea directory" />
+    <MESSAGE value="commit main SS setup files (-examples)" />
+    <MESSAGE value="commit calib images directory 4 and scenes directory 3" />
+    <MESSAGE value="commit calib images dir5, tsukuba" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit calib images dir5, tsukuba" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$DetectChessboard.coverage" NAME="DetectChessboard Coverage Results" MODIFIED="1665002044792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SimpleStereo-master/misc" />
