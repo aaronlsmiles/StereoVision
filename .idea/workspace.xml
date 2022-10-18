@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e929581-72ae-44f7-937c-8881a464ae55" name="Changes" comment="commit calib images dir5, tsukuba">
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/012 ClickDepthMapDistance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/000 CalibrateSingleCamera.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/000 CalibrateSingleCamera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/003 BuildStereoRig.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/003 BuildStereoRig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/005 RectifyRig.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/005 RectifyRig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/006 RectifyImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/006 RectifyImages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/008 StereoMatchingSGBM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/008 StereoMatchingSGBM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/009 StereoMatchingASW.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/009 StereoMatchingASW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/011 Build3DPointCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/011 Build3DPointCloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/disparity.png" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/disparity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/export.ply" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/export.ply" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/res/4/rig.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/res/4/rig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/res/4/rigRect.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/res/4/rigRect.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rig.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rigRect.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rigRect.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleStereo-master/misc/RenameMultipleFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleStereo-master/misc/RenameMultipleFiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +53,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/a11s/PycharmProjects/pythonProject",
+    "last_opened_file_path": "/home/a11s/PycharmProjects/pythonProject/SimpleStereo-master/examples/res/7/R",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/SimpleStereo-master" />
-      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/scenes" />
-      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/scenes-source" />
-      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/scenes/2" />
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/7/R" />
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/7/L" />
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/7" />
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res" />
+      <recent name="$PROJECT_DIR$/SimpleStereo-master/examples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SimpleStereo-master/examples/res/5/rect_images" />
@@ -133,7 +142,7 @@
       <workItem from="1665437543586" duration="1757000" />
       <workItem from="1665439316509" duration="319000" />
       <workItem from="1665439646700" duration="1435000" />
-      <workItem from="1665441093640" duration="5051000" />
+      <workItem from="1665441093640" duration="24947000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit (second attempt)">
       <created>1665419305219</created>
@@ -212,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665569386569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit calib images dir5, tsukuba">
+      <created>1665570657026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570657026</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
